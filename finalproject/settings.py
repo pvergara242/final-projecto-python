@@ -31,8 +31,8 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'rest_framework',
     'django.contrib.admin',
-    # 'newsletters.apps.NewslettersConfig',
     'newsletters.apps.NewslettersConfig',
     'usuarios.apps.UsuarioConfig',
     'tags.apps.TagsConfig',
